@@ -1,6 +1,9 @@
 # ETITC - Asistencia de Trabajadores
 ---
-
+- meta data
+- obejtivos
+- justificacion
+  
 Tabla de dato
 
 | id | nombre   | apellido  | materia     | horario     | cargo    | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando |
