@@ -3,7 +3,9 @@
 - meta data
 - obejtivos
 - justificacion
-  
+
+
+  (Agregar mas nombre " trabajdores de la U " ) 
 Tabla de dato
 
 | id | nombre   | apellido  | materia     | horario     | cargo    | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando |
