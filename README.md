@@ -4,6 +4,7 @@
 Tabla de dato
 
 nombre,apellido,materia,horario,cargo,edad,nivel_de_educacion
+
 Juan,Pérez,Matemáticas,08:00-10:00,Profesor,45,Doctorado
 Ana,Gómez,Física,10:00-12:00,Profesor,38,Maestría
 Luis,Rodríguez,Química,12:00-14:00,Profesor,50,Doctorado
