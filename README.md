@@ -1,8 +1,11 @@
 # ETITC - Asistencia de Trabajadores
 ---
-- meta data
-- obejtivos
-- justificacion
+- Objetivos
+- Datos Iniciales
+- Planteamiento del Problema
+- Justificación
+- Referencias
+ 
 
 
   (Agregar mas nombre " trabajdores de la U " ) 
