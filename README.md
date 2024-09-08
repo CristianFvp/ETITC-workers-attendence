@@ -1,6 +1,17 @@
 # ETITC - Asistencia de Trabajadores
 ---
 - Objetivos
+    - **Objetivo General**: Crear un sistema de base de datos para el control y registro de la asistencia de los trabjadores
+      de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
+    - **Objetivos Especificos**:
+      - Almacenar la informacion de los trabajadores
+      - Sistema de regsitro de entrada y salida, que permita el control en tiempo real
+      - Poder generar consultas y reportes para verificar el cumplimiento
+      - Facilitar la creacion de informes para el departamento que lo requiera
+     
+      
+ 
+  
 - Datos Iniciales
 - Planteamiento del Problema
 - Justificación
