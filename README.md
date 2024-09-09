@@ -26,6 +26,8 @@
 Tabla de dato
 
 
+20x50
+
 | id | nombre   | apellido  | materia     | horario     | cargo                       | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando |
 |----|----------|-----------|-------------|-------------|-----------------------------|------|--------------------|---------------------|--------|--------------------------|------------------|
 | 1  | Juan     | Pérez     | Matemáticas | 08:00-10:00 | Profesor                    | 45   | Doctorado          | 12345678            | Masc   | Av. Libertador 101       | No               |
