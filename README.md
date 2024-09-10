@@ -81,7 +81,9 @@ Tabla de dato
 | 50 | Silvia   | López     | -           | 09:00-17:00 | Asistente de Recursos Humanos | 30   | Licenciatura       | 22345662            | Fem    | Calle de la Luna 56      | Sí               | 4                | Soltera      | 12/8/2019     | $3,200  | Medio tiempo     | Recursos Humanos      | 2234567890 | silvia.lopez@uni.edu     | Gestión de Personal       |
 
 - **Posible división de tareas entre los miembros del equipo** 
-- diseño de base de datos
-    Encargados (Cristian vargas, Yeison Ruano)
-- pruebas y documentacion
-    Encargados (Bayter Jimenes, Sofia Cobaleda)
+     - diseño de base de datos
+        Encargados (Cristian vargas, Yeison Ruano)
+     - pruebas y documentacion
+        Encargados (Bayter Jimenes, Sofia Cobaleda)
+       
+      
