@@ -6,7 +6,7 @@
       
     - **Objetivos Especificos**:
       - Registrar y almacenar la informacion de los trabajadores de forma organizada.
-      - Sistema de regsitro de entrada y salida, que permita el control en tiempo real.
+      - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
       - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
       - Facilitar la creacion de informes para el departamento que lo requiera.
      
