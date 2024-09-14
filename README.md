@@ -1,7 +1,7 @@
 # ETITC - Asistencia de Trabajadores U
 ---
 - **Objetivos**
-    - **Objetivo General**: Crear un sistema de base de datos para el control y registro de la asistencia de los trabjadores
+    - **Objetivo General**: Desarrollar un sistema de base de datos para el registro y control de la asistencia de los trabjadores
       de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
       
     - **Objetivos Especificos**:
@@ -12,7 +12,7 @@
      
 
 - **Planteamiento del Problema**:
-   La asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y 
+   La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y 
    productividad. Sin embargo, el uso de sistemas manuales o desactualizados puede generar errores en su registro, 
    resultando ineficiente en el seguimiento de la asistencia y la generación de reportes claros, afectando varias áreas 
    como, por ejemplo, recursos humanos, el pago de los trabajadores y retrasos en los procesos administrativos.
