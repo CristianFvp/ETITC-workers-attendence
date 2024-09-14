@@ -5,19 +5,25 @@
       de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
       
     - **Objetivos Especificos**:
-      - Almacenar la informacion de los trabajadores
-      - Sistema de regsitro de entrada y salida, que permita el control en tiempo real
-      - Poder generar consultas y reportes para verificar el cumplimiento
-      - Facilitar la creacion de informes para el departamento que lo requiera
+      - Registrar y almacenar la informacion de los trabajadores de forma organizada.
+      - Sistema de regsitro de entrada y salida, que permita el control en tiempo real.
+      - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
+      - Facilitar la creacion de informes para el departamento que lo requiera.
      
 
 - **Planteamiento del Problema**:
-   La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y 
+   La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y
    productividad. Sin embargo, el uso de sistemas manuales o desactualizados puede generar errores en su registro, 
    resultando ineficiente en el seguimiento de la asistencia y la generación de reportes claros, afectando varias áreas 
    como, por ejemplo, recursos humanos, el pago de los trabajadores y retrasos en los procesos administrativos.
   
-- Justificación
+- **Justificación**:
+  Este proyecto es importante porque actualmente en la universidad, el control de la asistencia de los trabajadores se hace de
+  manera manual. Esto puede causar problemas. Al crear un sistema de base de datos para registrar la asistencia, se podrá llevar un
+  control más claro y eficiente de quién está cumpliendo con sus horarios. Además, será más fácil generar reportes y mantener
+  todo en orden sin perder tiempo o cometer errores. Esto no solo ayudará a los trabajadores, sino también a la administración
+  de la universidad haciendo que todo funcione de manera más rápida y organizada.
+  
 - Referencias
  
 
@@ -81,9 +87,9 @@ Tabla de dato
 | 50 | Silvia   | López     | -           | 09:00-17:00 | Asistente de Recursos Humanos | 30   | Licenciatura       | 22345662            | Fem    | Calle de la Luna 56      | Sí               | 4                | Soltera      | 12/8/2019     | $3,200  | Medio tiempo     | Recursos Humanos      | 2234567890 | silvia.lopez@uni.edu     | Gestión de Personal       |
 
 - **Posible división de tareas entre los miembros del equipo** 
-     - diseño de base de datos
+     - Diseño de base de datos:
         Encargados (Cristian vargas, Yeison Ruano)
-     - pruebas y documentacion
+     - Pruebas y documentacion:
         Encargados (Bayter Jimenes, Sofia Cobaleda)
        
       
