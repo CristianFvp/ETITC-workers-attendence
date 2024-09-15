@@ -24,7 +24,14 @@
   todo en orden sin perder tiempo o cometer errores. Esto no solo ayudará a los trabajadores, sino también a la administración
   de la universidad haciendo que todo funcione de manera más rápida y organizada.
   
-- Referencias
+- **Referencias**
+  (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de https://www.researchgate.net/publication/358178607_Automated_
+  attendance_management_systems_systematic_literature_review
+  ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
+
+
+
+
  
 
 
