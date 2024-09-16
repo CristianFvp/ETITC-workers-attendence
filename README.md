@@ -1,17 +1,25 @@
 # ETITC - Asistencia de Trabajadores U
 ---
-- **Planteamiento del Problema**:
+**Planteamiento del Problema**:
+
    La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y
    productividad. Sin embargo, el uso de sistemas manuales o desactualizados puede generar errores en su registro, 
    resultando ineficiente en el seguimiento de la asistencia y la generación de reportes claros, afectando varias áreas 
    como, por ejemplo, recursos humanos, el pago de los trabajadores y retrasos en los procesos administrativos.
   
-- **Justificación**:
+**Justificación**:
+
   Este proyecto es importante porque actualmente en la universidad, el control de la asistencia de los trabajadores se hace de
   manera manual. Esto puede causar problemas. Al crear un sistema de base de datos para registrar la asistencia, se podrá llevar un
   control más claro y eficiente de quién está cumpliendo con sus horarios. Además, será más fácil generar reportes y mantener
   todo en orden sin perder tiempo o cometer errores. Esto no solo ayudará a los trabajadores, sino también a la administración
   de la universidad haciendo que todo funcione de manera más rápida y organizada.
+
+**solucion del problema**
+
+para resorver el problema planteado, se debe desarrollar un sistema de gestion de asistencia en una base de datos que auntomatica mente
+de el proceso de control de asistencia en la univercidad Este sistema permitirá el registro automático de entradas y salidas de los trabajadores, mejorará la generación de reportes y facilitará la integración con otros sistemas administrativos, como recursos humanos, los guardas de seguridad, y tambien bajara el indice de robos en la
+universidad.
   
 - **Objetivos**
     - **Objetivo General**: Desarrollar un sistema de base de datos para el registro y control de la asistencia de los trabjadores
@@ -31,11 +39,7 @@
   attendance_management_systems_systematic_literature_review
   ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
 
-solucion del problema
 
-para resorver el problema planteado, se debe desarrollar un sistema de gestion de asistencia en una base de datos que auntomatica mente
-de el proceso de control de asistencia en la univercidad Este sistema permitirá el registro automático de entradas y salidas de los trabajadores, mejorará la generación de reportes y facilitará la integración con otros sistemas administrativos, como recursos humanos, los guardas de seguridad, y tambien bajara el indice de robos en la
-universidad.
  Objetivos del sistema:
 - Registrar automáticamente la entrada y salida de los trabajadores.
 - Generar reportes de asistencia de manera rápida y precisa.
@@ -54,11 +58,21 @@ Beneficios esperados:
 - Mayor transparencia, Los empleados tendrán acceso a sus datos de asistencia, promoviendo la confianza y claridad.
 
  Tecnologías sugeridas:
- - Base de datos relacional, MySQL, PostgreSQL o SQL Server para el manejo de los datos de asistencia.
- - Interfaz de usuario, Un portal web o aplicación móvil donde los empleados puedan consultar su asistencia y los administradores generen reportes.
- - Sistemas de control de asistencia, Uso de hardware como lectores de tarjetas RFID, sistemas biométricos o cámaras de reconocimiento facial.
+   - Base de datos relacional, MySQL, PostgreSQL o SQL Server para el manejo de los datos de asistencia.
+   - Interfaz de usuario, Un portal web o aplicación móvil donde los empleados puedan consultar su asistencia y los administradores 
+     generen reportes.
+   - Sistemas de control de asistencia, Uso de hardware como lectores de tarjetas RFID, sistemas biométricos o cámaras de 
+     reconocimiento facial.
 
-   Referencias:
+- **Posible división de tareas entre los miembros del equipo**
+  
+     - Diseño de base de datos:
+        Encargados (Cristian vargas, Yeison Ruano).
+     - Pruebas y documentacion:
+        Encargados (Bayter Jimenes, Sofia Cobaleda).
+
+
+Referencias:
    - https://aws.amazon.com/es/what-is/database/
    - https://controllaboral.es/control-entrada-salida-personal/
    - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
@@ -74,7 +88,7 @@ Beneficios esperados:
 Tabla de dato
 
 
-20x50
+
 | id | nombre   | apellido  | materia     | horario     | cargo                         | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando | años_experiencia | estado_civil | fecha_ingreso | salario | tipo_de_contrato | departamento          | teléfono   | correo_electronico       | especialidad              |
 |----|----------|-----------|-------------|-------------|-------------------------------|------|--------------------|---------------------|--------|--------------------------|------------------|------------------|--------------|---------------|---------|------------------|-----------------------|------------|--------------------------|---------------------------|
 | 1  | Juan     | Pérez     | Matemáticas | 08:00-10:00 | Profesor                      | 45   | Doctorado          | 12345678            | Masc   | Av. Libertador 101       | No               | 20               | Casado       | 15/2/2005     | $5,000  | Tiempo completo  | Ciencias Exactas      | 1234567890 | juan.perez@uni.edu       | Matemáticas Avanzadas     |
@@ -128,10 +142,3 @@ Tabla de dato
 | 49 | Ricardo  | Suárez    | -           | 07:00-15:00 | Técnico de Audiovisuales      | 29   | Ingeniería         | 11234561            | Masc   | Av. del Norte 22         | Sí               | 6                | Soltero      | 7/3/2017      | $3,500  | Tiempo completo  | Audiovisuales         | 1123456789 | ricardo.suarez@uni.edu   | Tecnología Audiovisual    |
 | 50 | Silvia   | López     | -           | 09:00-17:00 | Asistente de Recursos Humanos | 30   | Licenciatura       | 22345662            | Fem    | Calle de la Luna 56      | Sí               | 4                | Soltera      | 12/8/2019     | $3,200  | Medio tiempo     | Recursos Humanos      | 2234567890 | silvia.lopez@uni.edu     | Gestión de Personal       |
 
-- **Posible división de tareas entre los miembros del equipo** 
-     - Diseño de base de datos:
-        Encargados (Cristian vargas, Yeison Ruano)
-     - Pruebas y documentacion:
-        Encargados (Bayter Jimenes, Sofia Cobaleda)
-       
-      
