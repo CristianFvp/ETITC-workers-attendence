@@ -29,6 +29,39 @@
   attendance_management_systems_systematic_literature_review
   ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
 
+solucion del problema
+
+para resorver el problema planteado, se debe desarrollar un sistema de gestion de asistencia en una base de datos que auntomatica mente
+de el proceso de control de asistencia en la univercidad Este sistema permitirá el registro automático de entradas y salidas de los trabajadores, mejorará la generación de reportes y facilitará la integración con otros sistemas administrativos, como recursos humanos, los guardas de seguridad, y tambien bajara el indice de robos en la
+universidad.
+ Objetivos del sistema:
+- Registrar automáticamente la entrada y salida de los trabajadores.
+- Generar reportes de asistencia de manera rápida y precisa.
+- Evitar errores manuales en el registro de asistencia.
+- Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
+  
+ Funcionalidades principales:
+- Uso de tarjetas RFID, sistemas biométricos o reconocimiento facial para registrar la entrada y salida.
+- Generación de reportes de asistencia diaria, semanal o mensual.
+- Consulta en tiempo real: Permitir que los administradores y empleados revisen el estado de su asistencia.
+  
+Beneficios esperados:
+- Reducción de errores humanos, El uso de un sistema automatizado evitará los errores que surgen de los métodos manuales.
+- Ahorro de tiempo, Los reportes automatizados y el control de asistencia agilizarán los procesos administrativos.
+- Mejora de la productividad, Al tener un control preciso del horario de los empleados, será más fácil identificar patrones y tomar decisiones.
+- Mayor transparencia, Los empleados tendrán acceso a sus datos de asistencia, promoviendo la confianza y claridad.
+
+ Tecnologías sugeridas:
+ - Base de datos relacional, MySQL, PostgreSQL o SQL Server para el manejo de los datos de asistencia.
+ - Interfaz de usuario, Un portal web o aplicación móvil donde los empleados puedan consultar su asistencia y los administradores generen reportes.
+ - Sistemas de control de asistencia, Uso de hardware como lectores de tarjetas RFID, sistemas biométricos o cámaras de reconocimiento facial.
+
+   Referencias:
+   - https://aws.amazon.com/es/what-is/database/
+   - https://controllaboral.es/control-entrada-salida-personal/
+   - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
+   - https://www.youtube.com/watch?v=MXpeVSPU_S0
+     
 
 
 
