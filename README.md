@@ -15,12 +15,21 @@
   todo en orden sin perder tiempo o cometer errores. Esto no solo ayudará a los trabajadores, sino también a la administración
   de la universidad haciendo que todo funcione de manera más rápida y organizada.
 
-**solucion del problema**
+**Requerimientos de la solución al problema**
 
-para resorver el problema planteado, se debe desarrollar un sistema de gestion de asistencia en una base de datos que auntomatica mente
-de el proceso de control de asistencia en la univercidad Este sistema permitirá el registro automático de entradas y salidas de los trabajadores, mejorará la generación de reportes y facilitará la integración con otros sistemas administrativos, como recursos humanos, los guardas de seguridad, y tambien bajara el indice de robos en la
-universidad.
-  
+   - Requerimientos Funcionales:
+     - Registro de Trabajadores
+     - Control de Entradas y Salidas
+     - Generación de Reportes
+     - Alertas y Notificaciones
+     - Consulta de Asistencia
+     - Seguridad de Acceso
+
+   - Requerimientos No Funcionales:
+     - Escalabilidad
+     - Facilidad de Uso
+     - Compatibilidad
+    
 - **Objetivos**
     - **Objetivo General**: Desarrollar un sistema de base de datos para el registro y control de la asistencia de los trabjadores
       de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
@@ -30,22 +39,9 @@ universidad.
       - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
       - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
       - Facilitar la creacion de informes para el departamento que lo requiera.
-     
-
-
-  
-- **Referencias**
-  (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de https://www.researchgate.net/publication/358178607_Automated_
-  attendance_management_systems_systematic_literature_review
-  ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
-
-
- Objetivos del sistema:
-- Registrar automáticamente la entrada y salida de los trabajadores.
-- Generar reportes de asistencia de manera rápida y precisa.
-- Evitar errores manuales en el registro de asistencia.
-- Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
-  
+      - Evitar errores manuales en el registro de asistencia.
+      - Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
+        
  Funcionalidades principales:
 - Uso de tarjetas RFID, sistemas biométricos o reconocimiento facial para registrar la entrada y salida.
 - Generación de reportes de asistencia diaria, semanal o mensual.
@@ -77,17 +73,14 @@ Referencias:
    - https://controllaboral.es/control-entrada-salida-personal/
    - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
    - https://www.youtube.com/watch?v=MXpeVSPU_S0
+   - (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de 
+     https://www.researchgate.net/publication/358178607_Automated_
+   - attendance_management_systems_systematic_literature_review
+     ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
      
-
-
-
- 
-
 
 - Datos Iniciales
 Tabla de dato
-
-
 
 | id | nombre   | apellido  | materia     | horario     | cargo                         | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando | años_experiencia | estado_civil | fecha_ingreso | salario | tipo_de_contrato | departamento          | teléfono   | correo_electronico       | especialidad              |
 |----|----------|-----------|-------------|-------------|-------------------------------|------|--------------------|---------------------|--------|--------------------------|------------------|------------------|--------------|---------------|---------|------------------|-----------------------|------------|--------------------------|---------------------------|
