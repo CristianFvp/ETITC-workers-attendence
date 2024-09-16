@@ -1,16 +1,5 @@
 # ETITC - Asistencia de Trabajadores U
 ---
-- **Objetivos**
-    - **Objetivo General**: Desarrollar un sistema de base de datos para el registro y control de la asistencia de los trabjadores
-      de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
-      
-    - **Objetivos Especificos**:
-      - Registrar y almacenar la informacion de los trabajadores de forma organizada.
-      - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
-      - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
-      - Facilitar la creacion de informes para el departamento que lo requiera.
-     
-
 - **Planteamiento del Problema**:
    La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y
    productividad. Sin embargo, el uso de sistemas manuales o desactualizados puede generar errores en su registro, 
@@ -23,6 +12,19 @@
   control más claro y eficiente de quién está cumpliendo con sus horarios. Además, será más fácil generar reportes y mantener
   todo en orden sin perder tiempo o cometer errores. Esto no solo ayudará a los trabajadores, sino también a la administración
   de la universidad haciendo que todo funcione de manera más rápida y organizada.
+  
+- **Objetivos**
+    - **Objetivo General**: Desarrollar un sistema de base de datos para el registro y control de la asistencia de los trabjadores
+      de una universidad, permitiendo gestionar de manera eficiente la informacion y generar reportes precisos.
+      
+    - **Objetivos Especificos**:
+      - Registrar y almacenar la informacion de los trabajadores de forma organizada.
+      - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
+      - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
+      - Facilitar la creacion de informes para el departamento que lo requiera.
+     
+
+
   
 - **Referencias**
   (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de https://www.researchgate.net/publication/358178607_Automated_
