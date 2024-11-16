@@ -160,3 +160,10 @@ Tabla de dato
 **Normalizacion**:
 
 La primera tabla de datos la generamos pidiéndole a ChatGPT que la creara con ciertas condiciones que nosotros le indicamos. Con esta tabla como base, llevamos a cabo el proceso de normalización, que nos ayudó a organizar y estructurar mejor los datos. La idea principal de esta es reflejar información sobre algunos integrantes de la universidad y diseñar una base de datos que permitiera registrar y almacenar de forma clara el registro de entrada y salida de cada persona. 
+
+**Primera Normalizacion**:
+
+Nos enfocamos en eliminar aquellos datos que no eran atómicos, es decir aquellos que contenían más de un valor en una misma celda. También eliminamos la redundancia, asegurándonos de que cada dato tuviera su propio atributo o columna, sin duplicaciones innecesarias. Esto permitió que la tabla fuera más eficiente y fácil de entender, ya que cada valor estaba correctamente separado y no se perdía ninguna información.Nos aseguramos de que la tabla mantuviera la misma estructura y fuera igual de comprensible, para que la información siguiera siendo accesible y clara para su consulta.
+
+
+
