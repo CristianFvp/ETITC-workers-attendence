@@ -168,3 +168,7 @@ Nos enfocamos en eliminar aquellos datos que no eran atómicos, es decir aquello
 **Segunda Normalizacion**:
 
 Lo que hicimos fue separar la información que no estaba completamente relacionada con la clave primaria. En una tabla, organizamos todos los datos personales y aquellos directamente relacionados con los trabajadores, como su nombre, dirección y demás detalles. En otra tabla, dividimos la información relacionada con las materias y, además, establecimos una separación clara de los roles que tiene cada trabajador. 
+
+**Tercera Normalizacion**:
+
+El objetivo fue eliminar cualquier dependencia transitiva, es decir, asegurarnos de que no hubiera atributos que dependieran de otros atributos no clave. Para lograr esto, se crearon tres tablas principales. La primera tabla incluye los roles de los trabajadores, como profesores, administradores y personal de aseo general, lo cual permite una gestión más clara y separada de los diferentes tipos de personal. La segunda tabla contiene la información específica de cada trabajador, como sus datos personales (nombre, dirección, etc.), y la tercera tabla organiza la información relacionada con las materias, asignando a cada una su respectiva clave primaria. Estas tablas están correctamente relacionadas entre sí mediante claves foráneas, lo que asegura una estructura más eficiente y libre de redundancias. Con este paso, conseguimos una base de datos más normalizada, organizada y fácil de mantener.
