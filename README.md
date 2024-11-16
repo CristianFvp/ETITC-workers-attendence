@@ -156,10 +156,8 @@ Tabla de dato
 | 49 | Ricardo  | Suárez    | -           | 07:00-15:00 | Técnico de Audiovisuales      | 29   | Ingeniería         | 11234561            | Masc   | Av. del Norte 22         | Sí               | 6                | Soltero      | 7/3/2017      | $3,500  | Tiempo completo  | Audiovisuales         | 1123456789 | ricardo.suarez@uni.edu   | Tecnología Audiovisual    |
 | 50 | Silvia   | López     | -           | 09:00-17:00 | Asistente de Recursos Humanos | 30   | Licenciatura       | 22345662            | Fem    | Calle de la Luna 56      | Sí               | 4                | Soltera      | 12/8/2019     | $3,200  | Medio tiempo     | Recursos Humanos      | 2234567890 | silvia.lopez@uni.edu     | Gestión de Personal       |
 
-
-
-
-
-
+--
+--
+--
 **Normalizacion**
 La primera tabla de datos la generamos pidiéndole a ChatGPT que la creara con ciertas condiciones que nosotros le indicamos. Con esta tabla como base, llevamos a cabo el proceso de normalización, que nos ayudó a organizar y estructurar mejor los datos. La idea principal de esta es reflejar información sobre algunos integrantes de la universidad y diseñar una base de datos que permitiera registrar y almacenar de forma clara el registro de entrada y salida de cada persona. 
