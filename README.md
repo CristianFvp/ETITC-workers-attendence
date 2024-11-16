@@ -156,3 +156,6 @@ Tabla de dato
 | 49 | Ricardo  | Suárez    | -           | 07:00-15:00 | Técnico de Audiovisuales      | 29   | Ingeniería         | 11234561            | Masc   | Av. del Norte 22         | Sí               | 6                | Soltero      | 7/3/2017      | $3,500  | Tiempo completo  | Audiovisuales         | 1123456789 | ricardo.suarez@uni.edu   | Tecnología Audiovisual    |
 | 50 | Silvia   | López     | -           | 09:00-17:00 | Asistente de Recursos Humanos | 30   | Licenciatura       | 22345662            | Fem    | Calle de la Luna 56      | Sí               | 4                | Soltera      | 12/8/2019     | $3,200  | Medio tiempo     | Recursos Humanos      | 2234567890 | silvia.lopez@uni.edu     | Gestión de Personal       |
 
+
+
+**Normalizacion**
