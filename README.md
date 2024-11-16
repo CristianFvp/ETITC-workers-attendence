@@ -84,7 +84,7 @@ Beneficios esperados:
      - Diseño de base de datos:
         Encargados (Cristian vargas, Yeison Ruano).
      - Pruebas y documentacion:
-        Encargados (Bayter Jimenes, Sofia Cobaleda).
+        Encargados (Sofia Cobaleda).
 
 - 
 
