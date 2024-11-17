@@ -225,6 +225,30 @@ Lo que hicimos fue separar la información que no estaba completamente relaciona
 |    Emp49    |  Ricardo |   Suárez  |  29  |  Masc  |     Av.   del Norte 22     |    Soltero   |       11234561      |     Ingeniería     |        Sí        |         6        | 1123456789 |  ricardo.suarez@uni.edu  | 07:00-15:00 |   |
 |    Emp50    |  Silvia  |   López   |  30  |   Fem  |    Calle   de la Luna 56   |    Soltera   |       22345662      |    Licenciatura    |        Sí        |         4        | 2234567890 |   silvia.lopez@uni.edu   | 09:00-17:00 |   |
 
+| ID_Materia |   materia   |   horario   |        especialidad        |
+|:----------:|:-----------:|:-----------:|:--------------------------:|
+| Asig1      | Matemáticas | 08:00-10:00 |   Matemáticas   Avanzadas  |
+| Asig2      |    Física   | 10:00-12:00 |      Física   Cuántica     |
+| Asig3      |   Química   | 12:00-14:00 |     Química   Orgánica     |
+| Asig4      |   Historia  | 14:00-16:00 |     Historia   Medieval    |
+| Asig5      |  Literatura | 16:00-18:00 | Literatura   Contemporánea |
+| Asig6      |   Biología  | 08:00-10:00 |    Genética   Molecular    |
+| Asig7      |  Geografía  | 10:00-12:00 |    Geografía   Política    |
+| Asig8      |     Arte    | 12:00-14:00 |       Arte   Moderno       |
+| Asig9      |    Inglés   | 14:00-16:00 |    Literatura   Inglesa    |
+| Asig10     | Matemáticas | 16:00-18:00 |      Álgebra   Lineal      |
+| Asig11     |    Física   | 08:00-10:00 |   Física   de Partículas   |
+| Asig12     |   Química   | 10:00-12:00 |         Bioquímica         |
+| Asig13     |   Historia  | 12:00-14:00 | Historia   Latinoamericana |
+| Asig14     |  Literatura | 14:00-16:00 |   Poesía   Contemporánea   |
+| Asig15     |   Biología  | 16:00-18:00 |     Biología   Celular     |
+| Asig16     |  Geografía  | 08:00-10:00 |     Geografía   Urbana     |
+| Asig17     |     Arte    | 10:00-12:00 |     Escultura   Moderna    |
+| Asig18     |    Inglés   | 12:00-14:00 |   Lingüística   Aplicada   |
+| Asig19     | Matemáticas | 14:00-16:00 |   Matemáticas   Discretas  |
+| Asig20     |    Física   | 16:00-18:00 |      Física   Nuclear      |
+| Asig21     |   Química   | 08:00-10:00 |     Química   Analítica    |
+
 **Tercera Forma de Normalizacion**:
 
 El objetivo fue eliminar cualquier dependencia transitiva, es decir, asegurarnos de que no hubiera atributos que dependieran de otros atributos no clave. Para lograr esto, se crearon tres tablas principales. La primera tabla incluye los roles de los trabajadores, como profesores, administradores y personal de aseo general, lo cual permite una gestión más clara y separada de los diferentes tipos de personal. La segunda tabla contiene la información específica de cada trabajador, como sus datos personales (nombre, dirección, etc.), y la tercera tabla organiza la información relacionada con las materias, asignando a cada una su respectiva clave primaria. Estas tablas están correctamente relacionadas entre sí mediante claves foráneas, lo que asegura una estructura más eficiente y libre de redundancias. Con este paso, conseguimos una base de datos más normalizada, organizada y fácil de mantener.
