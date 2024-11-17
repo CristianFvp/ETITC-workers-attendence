@@ -253,6 +253,61 @@ Lo que hicimos fue separar la información que no estaba completamente relaciona
 
 El objetivo fue eliminar cualquier dependencia transitiva, es decir, asegurarnos de que no hubiera atributos que dependieran de otros atributos no clave. Para lograr esto, se crearon tres tablas principales. La primera tabla incluye los roles de los trabajadores, como profesores, administradores y personal de aseo general, lo cual permite una gestión más clara y separada de los diferentes tipos de personal. La segunda tabla contiene la información específica de cada trabajador, como sus datos personales (nombre, dirección, etc.), y la tercera tabla organiza la información relacionada con las materias, asignando a cada una su respectiva clave primaria. Estas tablas están correctamente relacionadas entre sí mediante claves foráneas, lo que asegura una estructura más eficiente y libre de redundancias. Con este paso, conseguimos una base de datos más normalizada, organizada y fácil de mantener.
 
+**Informacion Empleados**
+| ID_Empleado |  nombre  |  apellido | edad | género |    dirección_de_vivienda   | estado_civil | número_de_documento |  teléfono  |    correo_electronico    |
+|:-----------:|:--------:|:---------:|:----:|:------:|:--------------------------:|:------------:|:-------------------:|:----------:|:------------------------:|
+|     Emp1    |   Juan   |   Pérez   |  45  |  Masc  |    Av.   Libertador 101    |    Casado    |       12345678      | 1234567890 |    juan.perez@uni.edu    |
+|     Emp2    |    Ana   |   Gómez   |  38  |   Fem  |        Calle   2 #34       |    Soltera   |       23456789      | 2345678901 |     ana.gomez@uni.edu    |
+|     Emp3    |   Luis   | Rodríguez |  50  |  Masc  |     Av.   Los Olivos 76    |    Casado    |       34567890      | 3456789012 |  luis.rodriguez@uni.edu  |
+|     Emp4    |   Marta  |  Martínez |  42  |   Fem  |    Calle   de la Luna 11   |  Divorciada  |       45678901      | 4567890123 |  marta.martinez@uni.edu  |
+|     Emp5    |  Carlos  |   Lopez   |  35  |  Masc  |     Av.   San Martín 33    |    Soltero   |       56789012      | 5678901234 |   carlos.lopez@uni.edu   |
+|     Emp6    |   Sofía  |  Jiménez  |  40  |   Fem  |     Calle   del Sol 21     |    Casada    |       67890123      | 6789012345 |   sofia.jimenez@uni.edu  |
+|     Emp7    |   Pedro  |   Castro  |  48  |  Masc  |     Av.   de la Paz 88     |    Casado    |       78901234      | 7890123456 |   pedro.castro@uni.edu   |
+|     Emp8    |   Laura  |   Suárez  |  29  |   Fem  |       Calle   Real 45      |    Soltera   |       89012345      | 8901234567 |   laura.suarez@uni.edu   |
+|     Emp9    |   Jorge  |  Salazar  |  54  |  Masc  |  Av.   de la República 56  |    Casado    |       90123456      | 9012345678 |   jorge.salazar@uni.edu  |
+|    Emp10    |  Isabel  |   Reyes   |  37  |   Fem  |     Calle   del Mar 78     |    Soltera   |       1234567       |  123456789 |   isabel.reyes@uni.edu   |
+|    Emp11    |  Antonio |  Herrera  |  49  |  Masc  |   Av.   de la Libertad 90  |    Casado    |       12345679      | 1123456789 |  antonio.herrera@uni.edu |
+|    Emp12    |   Elena  |   Rivera  |  43  |   Fem  |      Calle   Nueva 34      |    Soltera   |       23456780      | 2234567890 |   elena.rivera@uni.edu   |
+|    Emp13    |  Manuel  |   Ortiz   |  52  |  Masc  |     Av.   del Norte 76     |    Casado    |       34567891      | 3345678901 |   manuel.ortiz@uni.edu   |
+|    Emp14    |  Claudia |  Mendoza  |  33  |   Fem  |    Calle   del Centro 12   |    Soltera   |       45678902      | 4456789012 |  claudia.mendoza@uni.edu |
+|    Emp15    | Fernando |   Romero  |  46  |  Masc  |      Av.   del Sur 89      |    Casado    |       56789013      | 5567890123 |  fernando.romero@uni.edu |
+|    Emp16    |  Valeria |   Vargas  |  31  |   Fem  | Calle   de la Primavera 67 |    Soltera   |       67890124      | 6678901234 |  valeria.vargas@uni.edu  |
+|    Emp17    |  Rafael  |   Castro  |  39  |  Masc  |   Av.   de la Cultura 23   |    Casado    |       78901235      | 7789012345 |   rafael.castro@uni.edu  |
+|    Emp18    | Gabriela |   Muñoz   |  44  |   Fem  |     Calle   del Río 45     |    Soltera   |       89012346      | 8890123456 |  gabriela.muñoz@uni.edu  |
+|    Emp19    |   Oscar  |  Navarro  |  51  |  Masc  |      Av.   del Sol 90      |    Casado    |       90123457      | 9012345679 |   oscar.navarro@uni.edu  |
+|    Emp20    |   Nora   |  Salinas  |  32  |   Fem  |     Calle   del Lago 11    |    Soltera   |       1234568       | 1234567899 |   nora.salinas@uni.edu   |
+|    Emp21    |  Javier  |  Alvarez  |  47  |  Masc  |  Calle   de la Estación 77 |    Casado    |       12345680      | 1345678901 |  javier.alvarez@uni.edu  |
+|    Emp22    |   Mario  |  González |  41  |  Masc  |      Calle   Mayor 12      |    Casado    |       34567892      | 2456789012 |  mario.gonzalez@uni.edu  |
+|    Emp23    |   Lucía  |   Torres  |  29  |   Fem  |      Av.   Central 56      |    Soltera   |       45678903      | 3567890123 |   lucia.torres@uni.edu   |
+|    Emp24    |   José   |   Ramos   |  36  |  Masc  |    Calle   del Bosque 78   |    Casado    |       56789014      | 4678901234 |    jose.ramos@uni.edu    |
+|    Emp25    |   Carla  | Fernández |  43  |   Fem  |   Av.   de las Flores 89   |    Soltera   |       67890125      | 5789012345 |  carla.fernandez@uni.edu |
+|    Emp26    |  Andrés  |  Morales  |  34  |  Masc  |        Calle   7 #45       |    Soltero   |       78901236      | 6789012346 |  andres.morales@uni.edu  |
+|    Emp27    |  Felipe  |  Morales  |  45  |  Masc  |     Av.   Libertador 22    |    Casado    |       89012347      | 7890123457 |  felipe.morales@uni.edu  |
+|    Emp28    | Patricia |   Romero  |  50  |   Fem  |     Calle   Jardines 89    |    Casada    |       90123458      | 8901234568 |  patricia.romero@uni.edu |
+|    Emp29    |   Hugo   |  Cabrera  |  38  |  Masc  |  Calle   de los Álamos 23  |    Soltero   |       12345681      | 9012345679 |   hugo.cabrera@uni.edu   |
+|    Emp30    |  Daniela |    Ruiz   |  27  |   Fem  |   Av.   de los Robles 45   |    Soltera   |       23456781      | 1123456789 |   daniela.ruiz@uni.edu   |
+|    Emp31    |   Diego  |  Paredes  |  42  |  Masc  |     Calle   del Arco 67    |    Casado    |       34567893      | 2234567890 |   diego.paredes@uni.edu  |
+|    Emp32    |   Elena  | Gutierrez |  39  |   Fem  |     Av.   del Norte 45     |    Casada    |       45678904      | 3345678901 |  elena.gutierrez@uni.edu |
+|    Emp33    |  Sergio  |    Peña   |  46  |  Masc  |  Calle   de la Montaña 101 |    Casado    |       56789015      | 4456789012 |    sergio.pena@uni.edu   |
+|    Emp34    |   Laura  |  Aguilar  |  35  |   Fem  |   Av.   de la Juventud 76  |    Soltera   |       67890126      | 5567890123 |   laura.aguilar@uni.edu  |
+|    Emp35    |   Pablo  |   Vargas  |  52  |  Masc  |  Calle   de la Estrella 89 |    Casado    |       78901237      | 6678901234 |   pablo.vargas@uni.edu   |
+|    Emp36    |  Susana  |   Castro  |  31  |   Fem  |      Av.   del Sol 22      |    Soltera   |       89012348      | 7789012345 |   susana.castro@uni.edu  |
+|    Emp37    |  Roberto |   Pérez   |  40  |  Masc  |    Calle   Los Álamos 56   |    Casado    |       99012349      | 8890123456 |   roberto.perez@uni.edu  |
+|    Emp38    |  Teresa  | Fernández |  32  |   Fem  |    Av.   de los Pinos 12   |    Soltera   |       10123450      | 9012345679 | teresa.fernandez@uni.edu |
+|    Emp39    |  Ricardo |  Salinas  |  35  |  Masc  |      Av.   Central 34      |    Casado    |       11234551      | 1012345679 |  ricardo.salinas@uni.edu |
+|    Emp40    |  Beatriz |   Gómez   |  45  |   Fem  |      Calle   Nueva 78      |    Casada    |       22345652      | 2234567890 |   beatriz.gomez@uni.edu  |
+|    Emp41    |  Andrés  |   Lozano  |  38  |  Masc  |     Av.   del Norte 12     |    Casado    |       33456753      | 3345678901 |   andres.lozano@uni.edu  |
+|    Emp42    |   Julia  |   Vargas  |  28  |   Fem  |     Calle   del Sol 34     |    Soltera   |       44567854      | 4456789012 |   julia.vargas@uni.edu   |
+|    Emp43    |  Gonzalo |  Ramírez  |  39  |  Masc  |      Av.   del Este 22     |    Casado    |       55678955      | 5567890123 |  gonzalo.ramirez@uni.edu |
+|    Emp44    |   Marta  |  Herrera  |  52  |   Fem  |    Calle   del Norte 45    |    Casada    |       66789056      | 6678901234 |   marta.herrera@uni.edu  |
+|    Emp45    |   Jorge  |  Castillo |  37  |  Masc  |   Av.   de los Robles 23   |    Casado    |       77890157      | 7789012345 |  jorge.castillo@uni.edu  |
+|    Emp46    |   Elena  |   Ortega  |  34  |   Fem  |  Calle   de la Estrella 89 |    Soltera   |       88901258      | 8890123456 |   elena.ortega@uni.edu   |
+|    Emp47    |  Marcos  |    Ruiz   |  42  |  Masc  |   Av.   de las Flores 12   |    Casado    |       99012359      | 9901234567 |    marcos.ruiz@uni.edu   |
+|    Emp48    |    Ana   |  Morales  |  36  |   Fem  |       Calle   Real 45      |    Soltera   |       10123460      | 1012345679 |    ana.morales@uni.edu   |
+|    Emp49    |  Ricardo |   Suárez  |  29  |  Masc  |     Av.   del Norte 22     |    Soltero   |       11234561      | 1123456789 |  ricardo.suarez@uni.edu  |
+|    Emp50    |  Silvia  |   López   |  30  |   Fem  |    Calle   de la Luna 56   |    Soltera   |       22345662      | 2234567890 |   silvia.lopez@uni.edu   |
+
+
 
 | ID_Aseo | ID_Empleado | horario     | cargo                  | nivel_de_educacion | sigue_estudiando | años_experiencia | estado_civil | fecha_ingreso | salario  | tipo_de_contrato  | departamento          | teléfono   | correo_electronico    | especialidad  |
 |---------|-------------|-------------|------------------------|--------------------|------------------|------------------|--------------|---------------|----------|-------------------|-----------------------|------------|-----------------------|---------------|
