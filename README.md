@@ -88,30 +88,25 @@ administrativos y beneficiando a toda la institución.
 
 
 ---
-**Normalizacion**:
+## **Normalizacion**:
 
 La primera tabla de datos la generamos pidiéndole a ChatGPT que la creara con ciertas condiciones que nosotros le indicamos. Con esta tabla como base, llevamos a cabo el proceso de normalización, que nos ayudó a organizar y estructurar mejor los datos. La idea principal de esta es reflejar información sobre algunos integrantes de la universidad y diseñar una base de datos que permitiera registrar y almacenar de forma clara el registro de entrada y salida de cada persona. 
 
-**Primera Forma de Normalizacion**:
+### **Primera Forma de Normalizacion**:
 
 Nos enfocamos en eliminar aquellos datos que no eran atómicos, es decir aquellos que contenían más de un valor en una misma celda. También eliminamos la redundancia, asegurándonos de que cada dato tuviera su propio atributo o columna, sin duplicaciones innecesarias. Esto permitió que la tabla fuera más eficiente y fácil de entender, ya que cada valor estaba correctamente separado y no se perdía ninguna información.Nos aseguramos de que la tabla mantuviera la misma estructura y fuera igual de comprensible, para que la información siguiera siendo accesible y clara para su consulta.
 ( La tabla generada anteriormente ya contaba con la normalizacion)
 
-
-
-**Segunda Forma de Normalizacion**:
+### **Segunda Forma de Normalizacion**:
 
 Lo que hicimos fue separar la información que no estaba completamente relacionada con la clave primaria. En una tabla, organizamos todos los datos personales y aquellos directamente relacionados con los trabajadores, como su nombre, dirección y demás detalles. En otra tabla, dividimos la información relacionada con las materias y, además, establecimos una separación clara de los roles que tiene cada trabajador. 
 
-**Tercera Forma de Normalizacion**:
+### **Tercera Forma de Normalizacion**:
 
 El objetivo fue eliminar cualquier dependencia transitiva, es decir, asegurarnos de que no hubiera atributos que dependieran de otros atributos no clave. Para lograr esto, se crearon tres tablas principales. La primera tabla incluye los roles de los trabajadores, como profesores, administradores y personal de aseo general, lo cual permite una gestión más clara y separada de los diferentes tipos de personal. La segunda tabla contiene la información específica de cada trabajador, como sus datos personales (nombre, dirección, etc.), y la tercera tabla organiza la información relacionada con las materias, asignando a cada una su respectiva clave primaria. Estas tablas están correctamente relacionadas entre sí mediante claves foráneas, lo que asegura una estructura más eficiente y libre de redundancias. Con este paso, conseguimos una base de datos más normalizada, organizada y fácil de mantener.
 
 
-
-
-
-Referencias:
+## **Referencias:**
    - https://aws.amazon.com/es/what-is/database/
    - https://controllaboral.es/control-entrada-salida-personal/
    - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
