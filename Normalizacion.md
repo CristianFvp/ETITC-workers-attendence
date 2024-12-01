@@ -1,6 +1,6 @@
 # Normalizacion 2N
 
-##Tabla Empleados
+## Tabla Empleados
 
 | ID_Empleados |  nombre  |  apellido | número_de_documento | género | edad | estado_civil |    dirección_de_vivienda   |  teléfono  |    correo_electronico    | nivel_de_educacion | sigue_estudiando |
 |:------------:|:--------:|:---------:|:-------------------:|:------:|:----:|:------------:|:--------------------------:|:----------:|:------------------------:|:------------------:|:----------------:|
@@ -56,7 +56,7 @@
 |    Emple50   |  Silvia  |   López   |       22345662      |   Fem  |  30  |    Soltera   |    Calle   de la Luna 56   | 2234567890 |   silvia.lopez@uni.edu   |    Licenciatura    |        Sí        |
 
 
-##Tabla InFormacion de Contrato 
+## Tabla InFormacion de Contrato 
 
 | ID_Contrato |              cargo              |       departamento      |   horario   |  salario |  tipo_de_contrato | años_experiencia | fecha_ingreso |
 |:-----------:|:-------------------------------:|:-----------------------:|:-----------:|:--------:|:-----------------:|:----------------:|:-------------:|
@@ -112,7 +112,7 @@
 |    Cont50   | Asistente   de Recursos Humanos |    Recursos   Humanos   | 09:00-17:00 | $   3,20 |   Medio   tiempo  |         4        |   12/08/2019  |
 
 
-##Tabla Materias 
+## Tabla Materias 
 
 | ID_Materia |   materia   |
 |:----------:|:-----------:|
