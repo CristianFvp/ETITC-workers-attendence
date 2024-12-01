@@ -60,21 +60,19 @@ administrativos y beneficiando a toda la institución.
      - Facilidad de Uso
      - Compatibilidad}
      - Alertas y Notificaciones
-    
-
-        
- Funcionalidades principales:
+          
+ **Funcionalidades principales:**
 - Uso de tarjetas RFID, sistemas biométricos o reconocimiento facial para registrar la entrada y salida.
 - Generación de reportes de asistencia diaria, semanal o mensual.
 - Consulta en tiempo real: Permitir que los administradores y empleados revisen el estado de su asistencia.
   
-Beneficios esperados:
+**Beneficios esperados:**
 - Reducción de errores humanos, El uso de un sistema automatizado evitará los errores que surgen de los métodos manuales.
 - Ahorro de tiempo, Los reportes automatizados y el control de asistencia agilizarán los procesos administrativos.
 - Mejora de la productividad, Al tener un control preciso del horario de los empleados, será más fácil identificar patrones y tomar decisiones.
 - Mayor transparencia, Los empleados tendrán acceso a sus datos de asistencia, promoviendo la confianza y claridad.
 
- Tecnologías sugeridas:
+ **Tecnologías sugeridas:**
    - Base de datos relacional, MySQL, PostgreSQL o SQL Server para el manejo de los datos de asistencia.
    - Interfaz de usuario, Un portal web o aplicación móvil donde los empleados puedan consultar su asistencia y los administradores 
      generen reportes.
