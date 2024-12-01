@@ -29,13 +29,13 @@ administrativos y beneficiando a toda la institución.
       proporcionando consultas en tiempo real y generando reportes automáticos que optimicen los procesos de seguimiento y control,
       mejorando la eficiencia y confiabilidad de la administración del recurso humano.
       
-**Objetivos Especificos**:
-      - Registrar y almacenar la informacion de los trabajadores de forma organizada.
-      - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
-      - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
-      - Facilitar la creacion de informes para el departamento que lo requiera.
-      - Evitar errores manuales en el registro de asistencia.
-      - Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
+      - **Objetivos Especificos**:
+            - Registrar y almacenar la informacion de los trabajadores de forma organizada.
+            - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
+            - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
+            - Facilitar la creacion de informes para el departamento que lo requiera.
+            - Evitar errores manuales en el registro de asistencia.
+            - Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
   
 **Justificación**:
 
