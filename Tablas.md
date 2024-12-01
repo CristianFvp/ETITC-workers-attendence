@@ -1,6 +1,7 @@
 
-- Datos Iniciales
-Tabla de dato
+# Datos Iniciales
+## Tabla de datos
+
 
 | id | nombre   | apellido  | materia     | horario     | cargo                         | edad | nivel_de_educacion | número_de_documento | género | dirección_de_vivienda    | sigue_estudiando | años_experiencia | estado_civil | fecha_ingreso | salario | tipo_de_contrato | departamento          | teléfono   | correo_electronico       | especialidad              |
 |----|----------|-----------|-------------|-------------|-------------------------------|------|--------------------|---------------------|--------|--------------------------|------------------|------------------|--------------|---------------|---------|------------------|-----------------------|------------|--------------------------|---------------------------|
