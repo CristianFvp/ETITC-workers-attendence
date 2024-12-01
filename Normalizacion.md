@@ -125,3 +125,6 @@
 |    Mat7    |  Geografía  |
 |    Mat8    |     Arte    |
 |    Mat9    |    Inglés   |
+
+
+# Normalizacion 3N
