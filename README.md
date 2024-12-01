@@ -86,18 +86,6 @@ Beneficios esperados:
      - Pruebas y documentacion:
         Encargados (Sofia Cobaleda).
 
-- 
-
-
-Referencias:
-   - https://aws.amazon.com/es/what-is/database/
-   - https://controllaboral.es/control-entrada-salida-personal/
-   - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
-   - https://www.youtube.com/watch?v=MXpeVSPU_S0
-   - (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de 
-     https://www.researchgate.net/publication/358178607_Automated_
-   - attendance_management_systems_systematic_literature_review
-     ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
 
 ---
 **Normalizacion**:
@@ -118,3 +106,17 @@ Lo que hicimos fue separar la información que no estaba completamente relaciona
 **Tercera Forma de Normalizacion**:
 
 El objetivo fue eliminar cualquier dependencia transitiva, es decir, asegurarnos de que no hubiera atributos que dependieran de otros atributos no clave. Para lograr esto, se crearon tres tablas principales. La primera tabla incluye los roles de los trabajadores, como profesores, administradores y personal de aseo general, lo cual permite una gestión más clara y separada de los diferentes tipos de personal. La segunda tabla contiene la información específica de cada trabajador, como sus datos personales (nombre, dirección, etc.), y la tercera tabla organiza la información relacionada con las materias, asignando a cada una su respectiva clave primaria. Estas tablas están correctamente relacionadas entre sí mediante claves foráneas, lo que asegura una estructura más eficiente y libre de redundancias. Con este paso, conseguimos una base de datos más normalizada, organizada y fácil de mantener.
+
+
+
+
+
+Referencias:
+   - https://aws.amazon.com/es/what-is/database/
+   - https://controllaboral.es/control-entrada-salida-personal/
+   - https://hikvision.lat/productos/lector-biometrico-facial-hikvision-ds-k1t341amf.html
+   - https://www.youtube.com/watch?v=MXpeVSPU_S0
+   - (S/f-a). Researchgate.net. Recuperado el 12 de septiembre de 2024, de 
+     https://www.researchgate.net/publication/358178607_Automated_
+   - attendance_management_systems_systematic_literature_review
+     ChatGPT. (s/f). Chatgpt.com. Recuperado el 13-14 de septiembre de 2024, de https://chatgpt.com/
