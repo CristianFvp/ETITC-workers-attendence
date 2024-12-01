@@ -1,7 +1,7 @@
 # ETITC - Asistencia de Trabajadores en la U
 ---
 
-### **Introducción**:
+## **Introducción**:
 
 En la actualidad, el control manual de la asistencia en la universidad resulta ineficiente. 
 Este proyecto propone desarrollar un sistema automatizado basado en una base de datos para 
