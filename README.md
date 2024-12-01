@@ -23,19 +23,22 @@ administrativos y beneficiando a toda la institución.
   Se propone desarrollar un sistema automatizado de control de asistencia basado en la captura de huellas dactilares de los trabajadores. 
   Este sistema permitirá registrar de manera precisa la entrada y salida de cada empleado, proporcionando una verificación  segura y evitando el fraude o el mal uso del sistema. 
   
-   - **Objetivos**
+  ## **Objetivos**
+
 **Objetivo General**: Desarrollar un sistema automatizado de control de asistencia para los trabajadores de la universidad,
       utilizando tecnología de huella dactilar, que permita registrar de manera precisa las entradas y salidas del personal,
       proporcionando consultas en tiempo real y generando reportes automáticos que optimicen los procesos de seguimiento y control,
       mejorando la eficiencia y confiabilidad de la administración del recurso humano.
       
-      - **Objetivos Especificos**:
-            - Registrar y almacenar la informacion de los trabajadores de forma organizada.
-            - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
-            - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
-            - Facilitar la creacion de informes para el departamento que lo requiera.
-            - Evitar errores manuales en el registro de asistencia.
-            - Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
+**Objetivos Especificos**:  
+- Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
+
+- Registrar y almacenar la informacion de los trabajadores de forma organizada.
+
+- Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
+- Facilitar la creacion de informes para el departamento que lo requiera.
+- Evitar errores manuales en el registro de asistencia.
+- Proveer información en tiempo real para mejorar la toma de decisiones administrativas.
   
 **Justificación**:
 
