@@ -24,12 +24,12 @@ administrativos y beneficiando a toda la institución.
   Este sistema permitirá registrar de manera precisa la entrada y salida de cada empleado, proporcionando una verificación  segura y evitando el fraude o el mal uso del sistema. 
   
    - **Objetivos**
-    - **Objetivo General**: Desarrollar un sistema automatizado de control de asistencia para los trabajadores de la universidad,
+**Objetivo General**: Desarrollar un sistema automatizado de control de asistencia para los trabajadores de la universidad,
       utilizando tecnología de huella dactilar, que permita registrar de manera precisa las entradas y salidas del personal,
       proporcionando consultas en tiempo real y generando reportes automáticos que optimicen los procesos de seguimiento y control,
       mejorando la eficiencia y confiabilidad de la administración del recurso humano.
       
-    - **Objetivos Especificos**:
+**Objetivos Especificos**:
       - Registrar y almacenar la informacion de los trabajadores de forma organizada.
       - Implementar un sistema de regsitro de entrada y salida, que permita el control en tiempo real.
       - Poder generar consultas y reportes para verificar el cumplimiento de los trabajadores.
