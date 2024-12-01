@@ -1,5 +1,7 @@
 # Normalizacion 2N
 
+##Tabla Empleados
+
 | ID_Empleados |  nombre  |  apellido | número_de_documento | género | edad | estado_civil |    dirección_de_vivienda   |  teléfono  |    correo_electronico    | nivel_de_educacion | sigue_estudiando |
 |:------------:|:--------:|:---------:|:-------------------:|:------:|:----:|:------------:|:--------------------------:|:----------:|:------------------------:|:------------------:|:----------------:|
 |    Emple1    |   Juan   |   Pérez   |       12345678      |  Masc  |  45  |    Casado    |    Av.   Libertador 101    | 1234567890 |    juan.perez@uni.edu    |      Doctorado     |        No        |
@@ -52,3 +54,74 @@
 |    Emple48   |    Ana   |  Morales  |       10123460      |   Fem  |  36  |    Soltera   |       Calle   Real 45      | 1012345679 |    ana.morales@uni.edu   |    Licenciatura    |        No        |
 |    Emple49   |  Ricardo |   Suárez  |       11234561      |  Masc  |  29  |    Soltero   |     Av.   del Norte 22     | 1123456789 |  ricardo.suarez@uni.edu  |     Ingeniería     |        Sí        |
 |    Emple50   |  Silvia  |   López   |       22345662      |   Fem  |  30  |    Soltera   |    Calle   de la Luna 56   | 2234567890 |   silvia.lopez@uni.edu   |    Licenciatura    |        Sí        |
+
+
+##Tabla InFormacion de Contrato 
+
+| ID_Contrato |              cargo              |       departamento      |   horario   |  salario |  tipo_de_contrato | años_experiencia | fecha_ingreso |
+|:-----------:|:-------------------------------:|:-----------------------:|:-----------:|:--------:|:-----------------:|:----------------:|:-------------:|
+|    Cont1    |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,00 | Tiempo   completo |        20        |   15/02/2005  |
+|    Cont2    |             Profesor            |    Ciencias   Exactas   | 10:00-12:00 | $   4,20 |   Medio   tiempo  |        12        |   12/05/2011  |
+|    Cont3    |             Profesor            |    Ciencias   Exactas   | 12:00-14:00 | $   5,50 | Tiempo   completo |        25        |   3/09/1998   |
+|    Cont4    |             Profesor            |       Humanidades       | 14:00-16:00 | $   3,80 |   Medio   tiempo  |        18        |   1/08/2002   |
+|    Cont5    |             Profesor            |       Humanidades       | 16:00-18:00 | $   4,00 | Tiempo   completo |        10        |   14/04/2013  |
+|    Cont6    |             Profesor            |   Ciencias   Naturales  | 08:00-10:00 | $   5,20 |   Medio   tiempo  |        15        |   7/06/2008   |
+|    Cont7    |             Profesor            |   Ciencias   Sociales   | 10:00-12:00 | $   4,80 | Tiempo   completo |        22        |   25/10/1999  |
+|    Cont8    |             Profesor            |       Humanidades       | 12:00-14:00 | $   3,60 |   Medio   tiempo  |         5        |   17/09/2017  |
+|    Cont9    |             Profesor            |  Lenguas   Extranjeras  | 14:00-16:00 | $   5,70 | Tiempo   completo |        28        |   3/03/1995   |
+|    Cont10   |             Profesor            |    Ciencias   Exactas   | 16:00-18:00 | $   4,10 |  Tiempo   parcial |         9        |   21/07/2014  |
+|    Cont11   |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,50 | Tiempo   completo |        24        |   10/06/1998  |
+|    Cont12   |             Profesor            |    Ciencias   Exactas   | 10:00-12:00 | $   4,30 |   Medio   tiempo  |        19        |   1/03/2003   |
+|    Cont13   |             Profesor            |       Humanidades       | 12:00-14:00 | $   4,90 | Tiempo   completo |        27        |   7/09/1994   |
+|    Cont14   |             Profesor            |       Humanidades       | 14:00-16:00 | $   4,10 |   Medio   tiempo  |         8        |   21/05/2014  |
+|    Cont15   |             Profesor            |   Ciencias   Naturales  | 16:00-18:00 | $   5,40 | Tiempo   completo |        21        |   17/11/1999  |
+|    Cont16   |             Profesor            |   Ciencias   Sociales   | 08:00-10:00 | $   3,90 |   Medio   tiempo  |         6        |   12/04/2017  |
+|    Cont17   |             Profesor            |       Humanidades       | 10:00-12:00 | $   4,30 | Tiempo   completo |        13        |   1/02/2010   |
+|    Cont18   |             Profesor            |  Lenguas   Extranjeras  | 12:00-14:00 | $   4,80 |   Medio   tiempo  |        19        |   17/09/2003  |
+|    Cont19   |             Profesor            |    Ciencias   Exactas   | 14:00-16:00 | $   5,00 | Tiempo   completo |        25        |   20/11/1997  |
+|    Cont20   |             Profesor            |    Ciencias   Exactas   | 16:00-18:00 | $   4,20 |   Medio   tiempo  |         8        |   17/08/2015  |
+|    Cont21   |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,30 | Tiempo   completo |        22        |   5/03/2000   |
+|    Cont22   |      Secretario   Académico     |      Administración     | 09:00-17:00 | $   3,80 | Tiempo   completo |        16        |   9/07/2006   |
+|    Cont23   |          Recepcionista          |      Administración     | 08:00-16:00 | $   2,60 |   Medio   tiempo  |         5        |   21/10/2017  |
+|    Cont24   |      Personal   de Limpieza     |  Servicios   Generales  | 07:00-15:00 | $   2,20 | Tiempo   completo |        10        |   12/06/2012  |
+|    Cont25   |    Coordinadora   de Eventos    |  Relaciones   Públicas  | 10:00-18:00 | $   4,50 | Tiempo   completo |        12        |   4/05/2010   |
+|    Cont26   |      Técnico   Informático      |    Soporte   Técnico    | 09:00-17:00 | $   4,20 | Tiempo   completo |         9        |   8/09/2015   |
+|    Cont27   |             Contador            |         Finanzas        | 08:00-16:00 | $   3,90 | Tiempo   completo |        15        |   12/03/2008  |
+|    Cont28   |    Jefe   de Recursos Humanos   |    Recursos   Humanos   | 07:00-15:00 | $   5,60 | Tiempo   completo |        22        |   1/05/2000   |
+|    Cont29   |     Personal   de Seguridad     |        Seguridad        | 06:00-14:00 | $   2,50 | Tiempo   completo |        12        |   3/04/2010   |
+|    Cont30   |    Asistente   Administrativa   |      Administración     | 09:00-17:00 | $   2,80 |   Medio   tiempo  |         4        |   11/06/2019  |
+|    Cont31   |    Técnico   de Mantenimiento   |      Mantenimiento      | 08:00-16:00 | $   3,20 | Tiempo   completo |        18        |   15/03/2005  |
+|    Cont32   |     Coordinadora   Académica    |      Administración     | 07:00-15:00 | $   4,60 | Tiempo   completo |        13        |   18/07/2008  |
+|    Cont33   |          Bibliotecario          |       Bibliotecas       | 08:00-16:00 | $   3,90 | Tiempo   completo |        15        |   22/05/2009  |
+|    Cont34   |   Coordinadora   de Bienestar   | Bienestar   Estudiantil | 09:00-17:00 | $   4,30 | Tiempo   completo |         8        |   7/10/2015   |
+|    Cont35   |  Supervisor   de Mantenimiento  |      Mantenimiento      | 10:00-18:00 | $   4,60 | Tiempo   completo |        25        |   11/11/1996  |
+|    Cont36   |   Secretaria   Administrativa   |      Administración     | 09:00-17:00 | $   2,70 |   Medio   tiempo  |         4        |   14/04/2018  |
+|    Cont37   |             Conserje            |  Servicios   Generales  | 07:00-15:00 | $   2,20 | Tiempo   completo |        10        |   12/05/2013  |
+|    Cont38   |    Asistente   de Laboratorio   |         Ciencias        | 08:00-16:00 | $   3,00 | Tiempo   completo |         7        |   1/09/2016   |
+|    Cont39   |    Técnico   de Audiovisuales   |      Audiovisuales      | 09:00-17:00 | $   4,00 | Tiempo   completo |        12        |   5/06/2011   |
+|    Cont40   |     Secretaria   de Decanato    |      Administración     | 07:00-15:00 | $   3,50 | Tiempo   completo |        18        |   15/03/2005  |
+|    Cont41   |     Ingeniero   de Sistemas     |         Sistemas        | 09:00-17:00 | $   5,00 | Tiempo   completo |        14        |   8/07/2009   |
+|    Cont42   |     Auxiliar   de Biblioteca    |       Bibliotecas       | 07:00-15:00 | $   2,90 |   Medio   tiempo  |         3        |   10/02/2021  |
+|    Cont43   |    Técnico   de Mantenimiento   |      Mantenimiento      | 08:00-16:00 | $   3,20 | Tiempo   completo |        13        |   5/08/2010   |
+|    Cont44   |        Jefa   de Finanzas       |         Finanzas        | 09:00-17:00 | $   5,50 | Tiempo   completo |        25        |   17/11/1998  |
+|    Cont45   |     Personal   de Seguridad     |        Seguridad        | 06:00-14:00 | $   2,50 | Tiempo   completo |        11        |   10/04/2012  |
+|    Cont46   |     Técnico   de Laboratorio    |         Ciencias        | 08:00-16:00 | $   4,00 | Tiempo   completo |         8        |   15/09/2015  |
+|    Cont47   |             Conserje            |  Servicios   Generales  | 07:00-15:00 | $   2,30 | Tiempo   completo |        17        |   5/02/2006   |
+|    Cont48   |      Secretaria   Académica     |      Administración     | 08:00-16:00 | $   3,80 | Tiempo   completo |        12        |   1/04/2011   |
+|    Cont49   |    Técnico   de Audiovisuales   |      Audiovisuales      | 07:00-15:00 | $   3,50 | Tiempo   completo |         6        |   7/03/2017   |
+|    Cont50   | Asistente   de Recursos Humanos |    Recursos   Humanos   | 09:00-17:00 | $   3,20 |   Medio   tiempo  |         4        |   12/08/2019  |
+
+
+##Tabla Materias 
+
+| ID_Materia |   materia   |
+|:----------:|:-----------:|
+|    Mat1    | Matemáticas |
+|    Mat2    |    Física   |
+|    Mat3    |   Química   |
+|    Mat4    |   Historia  |
+|    Mat5    |  Literatura |
+|    Mat6    |   Biología  |
+|    Mat7    |  Geografía  |
+|    Mat8    |     Arte    |
+|    Mat9    |    Inglés   |
