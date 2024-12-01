@@ -128,3 +128,139 @@
 
 
 # Normalizacion 3N
+
+# tabla
+
+| ID_Contrato | ID_Empleados |              cargo              |       departamento      |   horario   |  salario |  tipo_de_contrato | años_experiencia | fecha_ingreso |
+|:-----------:|:------------:|:-------------------------------:|:-----------------------:|:-----------:|:--------:|:-----------------:|:----------------:|:-------------:|
+|    Cont1    |    Emple1    |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,00 | Tiempo   completo |        20        |   15/02/2005  |
+|    Cont2    |    Emple2    |             Profesor            |    Ciencias   Exactas   | 10:00-12:00 | $   4,20 |   Medio   tiempo  |        12        |   12/05/2011  |
+|    Cont3    |    Emple3    |             Profesor            |    Ciencias   Exactas   | 12:00-14:00 | $   5,50 | Tiempo   completo |        25        |   3/09/1998   |
+|    Cont4    |    Emple4    |             Profesor            |       Humanidades       | 14:00-16:00 | $   3,80 |   Medio   tiempo  |        18        |   1/08/2002   |
+|    Cont5    |    Emple5    |             Profesor            |       Humanidades       | 16:00-18:00 | $   4,00 | Tiempo   completo |        10        |   14/04/2013  |
+|    Cont6    |    Emple6    |             Profesor            |   Ciencias   Naturales  | 08:00-10:00 | $   5,20 |   Medio   tiempo  |        15        |   7/06/2008   |
+|    Cont7    |    Emple7    |             Profesor            |   Ciencias   Sociales   | 10:00-12:00 | $   4,80 | Tiempo   completo |        22        |   25/10/1999  |
+|    Cont8    |    Emple8    |             Profesor            |       Humanidades       | 12:00-14:00 | $   3,60 |   Medio   tiempo  |         5        |   17/09/2017  |
+|    Cont9    |    Emple9    |             Profesor            |  Lenguas   Extranjeras  | 14:00-16:00 | $   5,70 | Tiempo   completo |        28        |   3/03/1995   |
+|    Cont10   |    Emple10   |             Profesor            |    Ciencias   Exactas   | 16:00-18:00 | $   4,10 |  Tiempo   parcial |         9        |   21/07/2014  |
+|    Cont11   |    Emple11   |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,50 | Tiempo   completo |        24        |   10/06/1998  |
+|    Cont12   |    Emple12   |             Profesor            |    Ciencias   Exactas   | 10:00-12:00 | $   4,30 |   Medio   tiempo  |        19        |   1/03/2003   |
+|    Cont13   |    Emple13   |             Profesor            |       Humanidades       | 12:00-14:00 | $   4,90 | Tiempo   completo |        27        |   7/09/1994   |
+|    Cont14   |    Emple14   |             Profesor            |       Humanidades       | 14:00-16:00 | $   4,10 |   Medio   tiempo  |         8        |   21/05/2014  |
+|    Cont15   |    Emple15   |             Profesor            |   Ciencias   Naturales  | 16:00-18:00 | $   5,40 | Tiempo   completo |        21        |   17/11/1999  |
+|    Cont16   |    Emple16   |             Profesor            |   Ciencias   Sociales   | 08:00-10:00 | $   3,90 |   Medio   tiempo  |         6        |   12/04/2017  |
+|    Cont17   |    Emple17   |             Profesor            |       Humanidades       | 10:00-12:00 | $   4,30 | Tiempo   completo |        13        |   1/02/2010   |
+|    Cont18   |    Emple18   |             Profesor            |  Lenguas   Extranjeras  | 12:00-14:00 | $   4,80 |   Medio   tiempo  |        19        |   17/09/2003  |
+|    Cont19   |    Emple19   |             Profesor            |    Ciencias   Exactas   | 14:00-16:00 | $   5,00 | Tiempo   completo |        25        |   20/11/1997  |
+|    Cont20   |    Emple20   |             Profesor            |    Ciencias   Exactas   | 16:00-18:00 | $   4,20 |   Medio   tiempo  |         8        |   17/08/2015  |
+|    Cont21   |    Emple21   |             Profesor            |    Ciencias   Exactas   | 08:00-10:00 | $   5,30 | Tiempo   completo |        22        |   5/03/2000   |
+|    Cont22   |    Emple22   |      Secretario   Académico     |      Administración     | 09:00-17:00 | $   3,80 | Tiempo   completo |        16        |   9/07/2006   |
+|    Cont23   |    Emple23   |          Recepcionista          |      Administración     | 08:00-16:00 | $   2,60 |   Medio   tiempo  |         5        |   21/10/2017  |
+|    Cont24   |    Emple24   |      Personal   de Limpieza     |  Servicios   Generales  | 07:00-15:00 | $   2,20 | Tiempo   completo |        10        |   12/06/2012  |
+|    Cont25   |    Emple25   |    Coordinadora   de Eventos    |  Relaciones   Públicas  | 10:00-18:00 | $   4,50 | Tiempo   completo |        12        |   4/05/2010   |
+|    Cont26   |    Emple26   |      Técnico   Informático      |    Soporte   Técnico    | 09:00-17:00 | $   4,20 | Tiempo   completo |         9        |   8/09/2015   |
+|    Cont27   |    Emple27   |             Contador            |         Finanzas        | 08:00-16:00 | $   3,90 | Tiempo   completo |        15        |   12/03/2008  |
+|    Cont28   |    Emple28   |    Jefe   de Recursos Humanos   |    Recursos   Humanos   | 07:00-15:00 | $   5,60 | Tiempo   completo |        22        |   1/05/2000   |
+|    Cont29   |    Emple29   |     Personal   de Seguridad     |        Seguridad        | 06:00-14:00 | $   2,50 | Tiempo   completo |        12        |   3/04/2010   |
+|    Cont30   |    Emple30   |    Asistente   Administrativa   |      Administración     | 09:00-17:00 | $   2,80 |   Medio   tiempo  |         4        |   11/06/2019  |
+|    Cont31   |    Emple31   |    Técnico   de Mantenimiento   |      Mantenimiento      | 08:00-16:00 | $   3,20 | Tiempo   completo |        18        |   15/03/2005  |
+|    Cont32   |    Emple32   |     Coordinadora   Académica    |      Administración     | 07:00-15:00 | $   4,60 | Tiempo   completo |        13        |   18/07/2008  |
+|    Cont33   |    Emple33   |          Bibliotecario          |       Bibliotecas       | 08:00-16:00 | $   3,90 | Tiempo   completo |        15        |   22/05/2009  |
+|    Cont34   |    Emple34   |   Coordinadora   de Bienestar   | Bienestar   Estudiantil | 09:00-17:00 | $   4,30 | Tiempo   completo |         8        |   7/10/2015   |
+|    Cont35   |    Emple35   |  Supervisor   de Mantenimiento  |      Mantenimiento      | 10:00-18:00 | $   4,60 | Tiempo   completo |        25        |   11/11/1996  |
+|    Cont36   |    Emple36   |   Secretaria   Administrativa   |      Administración     | 09:00-17:00 | $   2,70 |   Medio   tiempo  |         4        |   14/04/2018  |
+|    Cont37   |    Emple37   |             Conserje            |  Servicios   Generales  | 07:00-15:00 | $   2,20 | Tiempo   completo |        10        |   12/05/2013  |
+|    Cont38   |    Emple38   |    Asistente   de Laboratorio   |         Ciencias        | 08:00-16:00 | $   3,00 | Tiempo   completo |         7        |   1/09/2016   |
+|    Cont39   |    Emple39   |    Técnico   de Audiovisuales   |      Audiovisuales      | 09:00-17:00 | $   4,00 | Tiempo   completo |        12        |   5/06/2011   |
+|    Cont40   |    Emple40   |     Secretaria   de Decanato    |      Administración     | 07:00-15:00 | $   3,50 | Tiempo   completo |        18        |   15/03/2005  |
+|    Cont41   |    Emple41   |     Ingeniero   de Sistemas     |         Sistemas        | 09:00-17:00 | $   5,00 | Tiempo   completo |        14        |   8/07/2009   |
+|    Cont42   |    Emple42   |     Auxiliar   de Biblioteca    |       Bibliotecas       | 07:00-15:00 | $   2,90 |   Medio   tiempo  |         3        |   10/02/2021  |
+|    Cont43   |    Emple43   |    Técnico   de Mantenimiento   |      Mantenimiento      | 08:00-16:00 | $   3,20 | Tiempo   completo |        13        |   5/08/2010   |
+|    Cont44   |    Emple44   |        Jefa   de Finanzas       |         Finanzas        | 09:00-17:00 | $   5,50 | Tiempo   completo |        25        |   17/11/1998  |
+|    Cont45   |    Emple45   |     Personal   de Seguridad     |        Seguridad        | 06:00-14:00 | $   2,50 | Tiempo   completo |        11        |   10/04/2012  |
+|    Cont46   |    Emple46   |     Técnico   de Laboratorio    |         Ciencias        | 08:00-16:00 | $   4,00 | Tiempo   completo |         8        |   15/09/2015  |
+|    Cont47   |    Emple47   |             Conserje            |  Servicios   Generales  | 07:00-15:00 | $   2,30 | Tiempo   completo |        17        |   5/02/2006   |
+|    Cont48   |    Emple48   |      Secretaria   Académica     |      Administración     | 08:00-16:00 | $   3,80 | Tiempo   completo |        12        |   1/04/2011   |
+|    Cont49   |    Emple49   |    Técnico   de Audiovisuales   |      Audiovisuales      | 07:00-15:00 | $   3,50 | Tiempo   completo |         6        |   7/03/2017   |
+|    Cont50   |    Emple50   | Asistente   de Recursos Humanos |    Recursos   Humanos   | 09:00-17:00 | $   3,20 |   Medio   tiempo  |         4        |   12/08/2019  |
+
+# tabla
+
+| ID_Especialidad | ID_Empleados |         especialidad        |
+|:---------------:|:------------:|:---------------------------:|
+|      Espe1      |    Emple1    |   Matemáticas   Avanzadas   |
+|      Espe2      |    Emple2    |      Física   Cuántica      |
+|      Espe3      |    Emple3    |      Química   Orgánica     |
+|      Espe4      |    Emple4    |     Historia   Medieval     |
+|      Espe5      |    Emple5    |  Literatura   Contemporánea |
+|      Espe6      |    Emple6    |     Genética   Molecular    |
+|      Espe7      |    Emple7    |     Geografía   Política    |
+|      Espe8      |    Emple8    |        Arte   Moderno       |
+|      Espe9      |    Emple9    |     Literatura   Inglesa    |
+|      Espe10     |    Emple10   |       Álgebra   Lineal      |
+|      Espe11     |    Emple11   |    Física   de Partículas   |
+|      Espe12     |    Emple12   |          Bioquímica         |
+|      Espe13     |    Emple13   |  Historia   Latinoamericana |
+|      Espe14     |    Emple14   |    Poesía   Contemporánea   |
+|      Espe15     |    Emple15   |      Biología   Celular     |
+|      Espe16     |    Emple16   |      Geografía   Urbana     |
+|      Espe17     |    Emple17   |     Escultura   Moderna     |
+|      Espe18     |    Emple18   |    Lingüística   Aplicada   |
+|      Espe19     |    Emple19   |   Matemáticas   Discretas   |
+|      Espe20     |    Emple20   |       Física   Nuclear      |
+|      Espe21     |    Emple21   |     Química   Analítica     |
+|      Espe22     |    Emple22   |        Administración       |
+|      Espe23     |    Emple23   |    Atención   al Público    |
+|      Espe24     |    Emple24   |        Mantenimiento        |
+|      Espe25     |    Emple25   |  Organización   de Eventos  |
+|      Espe26     |    Emple26   |      Redes   y Sistemas     |
+|      Espe27     |    Emple27   |    Contabilidad   General   |
+|      Espe28     |    Emple28   |    Gestión   de Personal    |
+|      Espe29     |    Emple29   |          Vigilancia         |
+|      Espe30     |    Emple30   |        Administración       |
+|      Espe31     |    Emple31   |         Electricidad        |
+|      Espe32     |    Emple32   |     Gestión   Académica     |
+|      Espe33     |    Emple33   |         Archivística        |
+|      Espe34     |    Emple34   |    Psicología   Educativa   |
+|      Espe35     |    Emple35   |  Gestión   de Instalaciones |
+|      Espe36     |    Emple36   |        Administración       |
+|      Espe37     |    Emple37   |        Mantenimiento        |
+|      Espe38     |    Emple38   |          Bioquímica         |
+|      Espe39     |    Emple39   | Tecnologías   Audiovisuales |
+|      Espe40     |    Emple40   |   Gestión   Administrativa  |
+|      Espe41     |    Emple41   |   Desarrollo   de Software  |
+|      Espe42     |    Emple42   |   Gestión   Bibliotecaria   |
+|      Espe43     |    Emple43   |         Electricidad        |
+|      Espe44     |    Emple44   |         Contabilidad        |
+|      Espe45     |    Emple45   |          Vigilancia         |
+|      Espe46     |    Emple46   |     Química   Analítica     |
+|      Espe47     |    Emple47   |        Mantenimiento        |
+|      Espe48     |    Emple48   |   Gestión   Administrativa  |
+|      Espe49     |    Emple49   |   Tecnología   Audiovisual  |
+|      Espe50     |    Emple50   |    Gestión   de Personal    |
+
+# tabla
+
+| ID_Academia | ID_Materia | ID_Empleados |
+|:-----------:|:----------:|:------------:|
+|    Acad1    |    Mat1    |    Emple1    |
+|    Acad2    |    Mat2    |    Emple2    |
+|    Acad3    |    Mat3    |    Emple3    |
+|    Acad4    |    Mat4    |    Emple4    |
+|    Acad5    |    Mat5    |    Emple5    |
+|    Acad6    |    Mat6    |    Emple6    |
+|    Acad7    |    Mat7    |    Emple7    |
+|    Acad8    |    Mat8    |    Emple8    |
+|    Acad9    |    Mat9    |    Emple9    |
+|    Acad10   |    Mat1    |    Emple10   |
+|    Acad11   |    Mat2    |    Emple11   |
+|    Acad12   |    Mat3    |    Emple12   |
+|    Acad13   |    Mat4    |    Emple13   |
+|    Acad14   |    Mat5    |    Emple14   |
+|    Acad15   |    Mat6    |    Emple15   |
+|    Acad16   |    Mat7    |    Emple16   |
+|    Acad17   |    Mat8    |    Emple17   |
+|    Acad18   |    Mat9    |    Emple18   |
+|    Acad19   |    Mat1    |    Emple19   |
+|    Acad20   |    Mat2    |    Emple20   |
+|    Acad21   |    Mat3    |    Emple21   |
