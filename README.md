@@ -11,19 +11,19 @@ errores y facilitar la generación de reportes en tiempo real, optimizando los p
 administrativos y beneficiando a toda la institución.
 
 
-**Planteamiento del Problema**:
+## **Planteamiento del Problema**:
 
    La correcta asistencia de los trabajadores de una universidad es muy importante para garantizar el control de horarios y
    productividad. Sin embargo, el uso de sistemas manuales o desactualizados puede generar errores en su registro, 
    resultando ineficiente en el seguimiento de la asistencia y la generación de reportes claros, afectando varias áreas 
    como, por ejemplo, recursos humanos, el pago de los trabajadores y retrasos en los procesos administrativos.
 
-**Planteamiento de la solución**:
+## **Planteamiento de la solución**:
 
   Se propone desarrollar un sistema automatizado de control de asistencia basado en la captura de huellas dactilares de los trabajadores. 
   Este sistema permitirá registrar de manera precisa la entrada y salida de cada empleado, proporcionando una verificación  segura y evitando el fraude o el mal uso del sistema. 
   
-   - **Objetivos**
+   - ### **Objetivos**
     - **Objetivo General**: Desarrollar un sistema automatizado de control de asistencia para los trabajadores de la universidad,
       utilizando tecnología de huella dactilar, que permita registrar de manera precisa las entradas y salidas del personal,
       proporcionando consultas en tiempo real y generando reportes automáticos que optimicen los procesos de seguimiento y control,
