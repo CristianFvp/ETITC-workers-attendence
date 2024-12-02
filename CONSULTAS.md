@@ -41,3 +41,36 @@ Having dias_asistidos = 5;
 SELECT ID_Empleados, nombre, apellido, correo_electronico
 From Empleados
 Where tipo_de_contrato = 'medio tiempo';
+```
+6. Listar empleados con sueldos superiores a un monto específico
+
+```sql
+SELECT ID_Empleados, nombre, apellido, sueldo
+FROM Empleados
+WHERE sueldo > 3000;
+```
+
+7. Obtener los departamentos con más de un número específico de empleados
+```sql
+SELECT departamento, COUNT(*) AS total_empleados
+FROM Empleados
+GROUP BY departamento
+HAVING total_empleados > 10;
+```
+8. Encontrar empleados que no han asistido en todo el mes de diciembre
+```sql
+SELECT ID_Empleados, nombre, apellido
+FROM Empleados
+WHERE ID_Empleados NOT IN (
+    SELECT ID_Empleados
+    FROM asistencia
+    WHERE fecha BETWEEN '2024-12-01' AND '2024-12-31'
+```
+9 Mostrar el promedio de años de experiencia por departamento
+```sql
+SELECT departamento, AVG(años_experiencia) AS promedio_experiencia
+FROM Empleados
+GROUP BY departamento;
+);
+```
+10   
