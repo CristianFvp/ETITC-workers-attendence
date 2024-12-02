@@ -1,3 +1,4 @@
+```sql
 CREATE TABLE Materias (
     ID_Materia VARCHAR(10) PRIMARY KEY,
     materia VARCHAR(100)
@@ -36,3 +37,4 @@ CREATE TABLE Contratos (
     FOREIGN KEY (ID_Empleados) REFERENCES Empleados(ID_Empleados)
 );
 
+```
