@@ -14,3 +14,6 @@ Where años_experiencia >= 15;
 SELECT departamento, COUNT (*) AS total_empleados
 From trabajadores
 Group BY departamento;
+```
+
+3. 
