@@ -71,6 +71,11 @@ WHERE ID_Empleados NOT IN (
 SELECT departamento, AVG(años_experiencia) AS promedio_experiencia
 FROM Empleados
 GROUP BY departamento;
-);
+
 ```
-10   
+10 Listar empleados que tienen más de 5 años en la empresa y su cargo
+```sql
+SELECT ID_Empleados, nombre, apellido, cargo
+FROM Empleados
+WHERE años_experiencia > 5;
+);
